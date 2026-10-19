@@ -1,0 +1,48 @@
+footer {
+    padding-top: 80px;
+    padding-bottom: 160px;
+    background-color: black;
+    color: white;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer nav {
+    align-items: baseline;
+}
+
+footer h4, h4 a {
+    font-size: 20px;
+    font-weight: 700 !important;
+    color: white !important;
+}
+
+footer a {
+    font-size: 20px;
+    color: #959595;
+    font-weight: 500;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-height: fit-content;
+}
+
+.mes a {
+    color: white;
+}
+
+h4 a:hover, .mes a:hover {
+    color: #C8003C !important;
+}

@@ -1,0 +1,26 @@
+header {
+    border-bottom: 1px solid #D9D9D9;
+    padding: 20px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+
+nav a:hover {
+    color: #C8003C;
+}

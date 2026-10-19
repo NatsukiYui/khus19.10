@@ -1,0 +1,40 @@
+main {
+    height: 640px;
+    background: url('../../assets/image/bcg.png')center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+main p {
+    font-size: 32px;
+    font-weight: 500;
+    max-width: 640px;
+    padding-bottom: 20px;
+}
+
+main a {
+    padding: 10px 40px;
+    background-color: #C8003C;
+    border-radius: 50px;
+    max-width: fit-content;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+main a:hover {
+    color: #C8003C;
+    background-color: white;
+}
