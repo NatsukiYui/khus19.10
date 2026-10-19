@@ -5,7 +5,7 @@ export function Subscribe() {
         <div className={`${s.subscribe} my120`}>
             <div className={`${s.text} container`}>
                 <h3>Будь в курсе новинок</h3>
-                <div className={s.sub}>
+                <form className={s.sub}>
                     <label>Подпишитесь на рассылку, чтобы первым узнавать о поступлениях, акциях и эксклюзивных предложениях.</label>
                     <input type="email" placeholder='Email' />
                     <div className={s.agree}>
@@ -14,7 +14,7 @@ export function Subscribe() {
                         <p>Даю согласие на обработку персональных данных</p>
                     </div>
                     <input type="submit" value="Подписаться" />
-                </div>
+                </form>
             </div>
         </div>
     )
